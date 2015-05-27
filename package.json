@@ -1,0 +1,20 @@
+{
+  "name": "toner-phantom",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Jan Blaha",
+  "license": "MIT",
+  "dependencies": {
+    "node.extend": "^1.1.4",
+    "phantom-html-to-pdf": "^0.2.0",
+    "stream-to-array": "^2.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  }
+}
