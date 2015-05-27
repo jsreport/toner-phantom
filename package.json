@@ -1,13 +1,26 @@
 {
   "name": "toner-phantom",
   "version": "0.0.1",
-  "description": "",
+  "description": "Toner recipe for printing html into pdf using phantomjs",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
   },
-  "author": "Jan Blaha",
+  "author": {
+    "name": "Jan Blaha",
+    "email": "jan.blaha@hotmail.com"
+  },
   "license": "MIT",
+  "keywords": [
+    "toner",
+    "jsreport",
+    "pdf"
+  ],
+  "homepage": "https://github.com/jsreport/toner-phantom",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jsreport/toner-phantom.git"
+  },
   "dependencies": {
     "node.extend": "^1.1.4",
     "phantom-html-to-pdf": "^0.2.0",
