@@ -22,12 +22,12 @@
     "url": "git@github.com:jsreport/toner-phantom.git"
   },
   "dependencies": {
-    "node.extend": "^1.1.4",
-    "phantom-html-to-pdf": "^0.2.0",
-    "stream-to-array": "^2.0.2"
+    "node.extend": "1.1.4",
+    "phantom-html-to-pdf": "0.3.0",
+    "stream-to-array": "2.0.2"
   },
   "devDependencies": {
-    "mocha": "^2.2.5",
-    "should": "^6.0.3"
+    "mocha": "2.2.5",
+    "should": "6.0.3"
   }
 }
