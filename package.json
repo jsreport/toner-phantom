@@ -1,6 +1,6 @@
 {
   "name": "toner-phantom",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Toner recipe for printing html into pdf using phantomjs",
   "main": "index.js",
   "scripts": {
