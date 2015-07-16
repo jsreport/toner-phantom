@@ -9,7 +9,7 @@ describe('phantom', function () {
 
     it("should render valid PDF", function (done) {
         var res = {content: new Buffer("foo"), headers: {}};
-        phantom({template: {}}, res, function (err) {
+        phantom({template: {}, toner: { options: { tempDirectory: require("os").tmpDir() }}}, res, function (err) {
 
             if (err)
                 return done(err);
@@ -28,7 +28,8 @@ describe('phantom', function () {
             render: function (req, cb) {
                 monitor = true;
                 cb(null, {content: new Buffer(req.template.content)});
-            }
+            },
+            options: { tempDirectory: require("os").tmpDir() }
         };
 
         phantom(req, res, function (err) {
